@@ -1,0 +1,165 @@
+ /* importar la fuente de la joyeria */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+ /* titulos utilizados denytro de la pagina  */
+.TituloMiPrincesa {
+    font-family: "Style Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(148,61,140);
+}
+ /* subtitulos ocupadops dentro de la pagina  */
+.subtitulos{
+    font-family: "Style Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(210,172,23);
+}
+ /* backgroun del navbar */
+.backgroundNavbar{
+    background-color:rgb(148,61,140);
+    color: #fff;
+}
+.backgroundNavbar.scrolled{
+    background-color: rgb(210,172,23,0.9 ) !important;
+    transition: 2s;
+}
+ /* background del slider */
+.backgroundSlider{
+    background-color: rgb(172,108,172);
+    color: #fff;
+    padding: 5px;
+}
+
+/* textos  */
+.textPurple{
+    color: rgb(148,61,140);
+}
+.textDorado{
+    color: rgb(210,172,23);
+}
+.textSub{
+    color: rgb(172,108,172);
+}
+.textPink{
+    color: rgb(208,153,196);
+}
+.textOro{
+    color: rgb(218,197,96);
+}
+.textJustificado{
+    text-align: justify;
+
+}
+ /* custumizar los link de la pagina */
+.custom-link {
+    color: rgb(172,108,172); /* Azul */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+/* Al pasar el mouse */
+.custom-link:hover {
+    color: rgb(148,61,140); /* Azul más oscuro */
+    text-decoration: none; /* Subrayado al pasar el mouse */
+    transform: scale(1.5); 
+}
+
+/* Cuando el enlace ha sido visitado */
+.custom-link:visited {
+    color:  rgb(218,197,96); /* Gris */
+}
+/* Cuando el enlace está activo */
+.custom-link:active {
+   color: rgb(148,61,140); /* Rojo */
+}
+
+/* botones denyro de la pagina */
+.btnPrincipal{
+    border: 1px solid;
+    border-color:  rgb(148,61,140);
+    background-color: transparent;
+    color: rgb(148,61,140);
+}
+.btnSecundario{
+    border: 1px solid;
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btnSecundario a{
+    color:  rgb(148,61,140);
+}
+.btnSecundario a:hover{
+    color:  rgb(148,61,140);
+}
+.btnSecundario:hover{
+    background-color: #fff;
+    color: rgb(148,61,140);
+}
+.btnPrincipal:hover{
+    background-color: rgb(148,61,140);
+    color: #fff;
+}
+.BtnSlider{
+    background-color: rgb(148,61,140);
+    padding: 3px;
+    color: #fff;
+}
+.footer{
+    position: relative;
+    background: #2c3e50;
+    height: 30vh;
+}
+.footer::before{
+    position: absolute;
+    content: '';
+    left: 50%;
+    z-index: 10;
+    width: 103px;
+    height: 95px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(-50%) translateY(57%);
+    bottom: 0px;position: absolute;
+    content: '';
+    left: 50%;
+    z-index: 10;
+    width: 103px;
+    height: 95px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(-50%) translateY(57%);
+    bottom: 0px;
+}
+.ir-arriba{
+    display:none;
+    background: rgb(148,61,140);;
+    padding: 5px;
+    background-repeat:no-repeat;
+    border-radius: 50%;
+    font-size:20px;
+    color:white;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    margin-bottom: 20px;
+    right:20px;
+    z-index:2;
+}
+.ir-arriba:hover{
+    background: rgb(148,61,140);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
