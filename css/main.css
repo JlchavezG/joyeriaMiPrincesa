@@ -27,9 +27,8 @@
 }
  /* background del slider */
 .backgroundSlider{
-    background-color: rgb(172,108,172);
-    color: #fff;
-    padding: 5px;
+    background-color: #fff;
+    color: rgb(172,108,172);
 }
 
 /* textos  */
@@ -107,6 +106,12 @@
     background-color: rgb(148,61,140);
     padding: 3px;
     color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+}
+.btnSliderBar{
+    background-color: rgb(148,61,140,0.5);
+    border-radius: 25px;
 }
 .footer{
     position: relative;
@@ -155,7 +160,13 @@
 }
 
 
-
+.card {
+    height: 100%;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
 
 
 
