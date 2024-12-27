@@ -84,7 +84,7 @@
                     <div class="row text-center mt-2">
                         <img src="img/logo_miprincesa.png" alt="Logotipo joyeria mi princesa" class="img-fluid">
                     </div>
-                    <div class="row">
+                    <div class="row" id="Nosotros">
                         <h3 class="TituloMiPrincesa text-center">Quienes Somos</h3>
                     </div>
                     <div class="container">
@@ -180,7 +180,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-4 mb-3">
+        <div class="row mt-4 mb-3" id="Servicios">
             <h2 class="text-center TituloMiPrincesa">Nuestros servicios</h2>
         </div>
         <div class="row mt-3 mb-5 justify-content-center">
@@ -189,7 +189,7 @@
                     <div class="row mt-1"></div>
                     <div class="row mt-1 text-center">
                         <div class="col-sm-4 col-md-4 col-lg-2 py-4">
-                            <svg class="bi textPurple" width="50" height="50" fill="currentColor">
+                            <svg class="bi textPurple golden-hover" width="50" height="50" fill="currentColor">
                                 <use xlink:href="library/bicons/bootstrap-icons.svg#headset" />
                             </svg>
                             <div class="row justify-content-center mt-1">
@@ -197,7 +197,7 @@
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-2 py-4">
-                            <svg class="bi textPurple" width="50" height="50" fill="currentColor">
+                            <svg class="bi textPurple golden-hover" width="50" height="50" fill="currentColor">
                                 <use xlink:href="library/bicons/bootstrap-icons.svg#cup-hot-fill" />
                             </svg>
                             <div class="row justify-content-center mt-1">
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-2 py-4">
-                            <svg class="bi textPurple" width="50" height="50" fill="currentColor">
+                            <svg class="bi textPurple golden-hover" width="50" height="50" fill="currentColor">
                                 <use xlink:href="library/bicons/bootstrap-icons.svg#credit-card-2-back-fill" />
                             </svg>
                             <div class="row justify-content-center mt-1">
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-2 py-4">
-                            <svg class="bi textPurple" width="50" height="50" fill="currentColor">
+                            <svg class="bi textPurple golden-hover" width="50" height="50" fill="currentColor">
                                 <use xlink:href="library/bicons/bootstrap-icons.svg#gift-fill" />
                             </svg>
                             <div class="row justify-content-center mt-1">
@@ -221,7 +221,7 @@
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-2 py-4">
-                            <svg class="bi textPurple" width="50" height="50" fill="currentColor">
+                            <svg class="bi textPurple golden-hover" width="50" height="50" fill="currentColor">
                                 <use xlink:href="library/bicons/bootstrap-icons.svg#signpost-2-fill" />
                             </svg>
                             <div class="row justify-content-center mt-1">
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-2 py-4">
-                            <svg class="bi textPurple" width="50" height="50" fill="currentColor">
+                            <svg class="bi textPurple golden-hover" width="50" height="50" fill="currentColor">
                                 <use xlink:href="library/bicons/bootstrap-icons.svg#truck" />
                             </svg>
                             <div class="row justify-content-center mt-1">
@@ -241,161 +241,343 @@
             </div>
         </div>
     </div>
-    <!-- boton hacia arriba -->
-    <a class="ir-arriba" javascript:void(0) title="Volver arriba">
-        <svg class="bi textPurple" width="50" height="50" fill="currentColor">
-            <use xlink:href="library/bicons/bootstrap-icons.svg#arrow-up" />
-        </svg>
-    </a>
-    <!-- termina boton arriba  -->
     <!-- Boton Compartir en redes sociales  -->
     <div class="container mt-2">
         <div class="row mt-3 mb-3 py5">
-            <div class="col sm-6 col-md-6 col-lg-6 mt-2"></div>
             <div class="col sm-6 col-md-6 col-lg-6 mt-2 text-end">
-                <svg class="bi textPurple" width="25" height="25" fill="currentColor">
-                    <use xlink:href="library/bicons/bootstrap-icons.svg#facebook" />
-                </svg>
+                <span class="subtitulos1">Comparte con tus amigos</span>
+            </div>
+            <div class="col sm-6 col-md-6 col-lg-6 mt-3 text-end">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.joyeriamiprincesa.com"
+                    target="_blanck" class="text-decoration-none">
+                    <svg class="bi textPurple golden-hover" width="25" height="25" fill="currentColor">
+                        <use xlink:href="library/bicons/bootstrap-icons.svg#facebook" />
+                    </svg>
+                </a>
                 &nbsp;&nbsp;
-                <svg class="bi textPurple" width="25" height="25" fill="currentColor">
+                <svg class="bi textPurple golden-hover" width="25" height="25" fill="currentColor">
                     <use xlink:href="library/bicons/bootstrap-icons.svg#instagram" />
                 </svg>
                 &nbsp;&nbsp;
-                <svg class="bi textPurple" width="25" height="25" fill="currentColor">
+                <a href="https://m.me/joyeriamiprincesa" class="text-decoration-none" target="_blanck">
+                <svg class="bi textPurple golden-hover" width="25" height="25" fill="currentColor">
                     <use xlink:href="library/bicons/bootstrap-icons.svg#messenger" />
                 </svg>
+                </a>
                 &nbsp;&nbsp;
-                <svg class="bi textPurple" width="25" height="25" fill="currentColor">
-                    <use xlink:href="library/bicons/bootstrap-icons.svg#whatsapp" />
-                </svg>
+                <a href="https://wa.me/?text=Visita%20este%20sitio%20web%20incre%C3%ADble:%20https://www.tuweb.com"
+                    target="_blanck" class="text-decoration-none">
+                    <svg class="bi textPurple golden-hover" width="25" height="25" fill="currentColor">
+                        <use xlink:href="library/bicons/bootstrap-icons.svg#whatsapp" />
+                    </svg>
+                </a>
                 &nbsp;&nbsp;
             </div>
         </div>
     </div>
     <!-- carrusel de productos  -->
-    <div class="container my-5">
-        <div id="sliderCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="container my-5 mb-4 mt-4">
+        <h2 class="text-center mb-4 TituloMiPrincesa">Descubre nuestras Categorías</h2>
+        <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <!-- Slide 1 -->
                 <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card text-center shadow-lg">
-                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 1">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pulsos plata</h5>
-                                    <p class="card-text textJustificado">
-                                    Descubre nuestra exclusiva colección de pulsos de plata 925, piezas únicas hechas a 
-                                    mano por artesanos mexicanos. Cada diseño combina elegancia y autenticidad, ofreciendo 
-                                    calidad excepcional y un toque especial para cualquier ocasión. ¡Encuentra el pulso perfecto 
-                                    que refleje tu estilo!
-                                    </p>
-                                    <a href="#" class="btn btn-primary">
-                                        Más información <i class="fas fa-plus"></i>
-                                    </a>
+                    <div class="row g-3">
+                        <div class="col-12 col-md-4 mb-4">
+                            <!-- Card 1 -->
+                            <div class="card category-card">
+                                <img src="https://via.placeholder.com/300x300?text=Anillos"
+                                    class="card-img-top category-image" alt="Anillos">
+                                <div class="card-body text-center">
+                                    <div class="row mt-1 mb-1">
+                                        <div class="col">
+                                            <p class="category-title">Anillos</p>
+                                        </div>
+                                        <div class="col text-end">
+                                            <svg class="bi textPurple" width="25" height="25" fill="currentColor">
+                                                <use xlink:href="library/bicons/bootstrap-icons.svg#plus-circle" />
+                                            </svg>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card text-center shadow-lg">
-                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 2">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cadenas de plata</h5>
-                                    <p class="card-text textJustificado">
-                                    Explora nuestras cadenas de plata 925, cuidadosamente elaboradas para resaltar tu estilo. Diseños versátiles 
-                                    y atemporales que se adaptan a cualquier look, con la calidad y brillo característicos de la joyería artesanal 
-                                    mexicana. ¡Luce elegancia en cada detalle!
-                                    </p>
-                                    <a href="#" class="btn btn-primary">
-                                        Más información <i class="fas fa-plus"></i>
-                                    </a>
+                        <div class="col-12 col-md-4 mb-4">
+                            <!-- Card 2 -->
+                            <div class="card category-card">
+                                <img src="https://via.placeholder.com/300x300?text=Pulseras"
+                                    class="card-img-top category-image" alt="Pulseras">
+                                <div class="card-body text-center">
+                                    <div class="row mt-1 mb-1">
+                                        <div class="col">
+                                            <p class="category-title">Pulseras</p>
+                                        </div>
+                                        <div class="col text-end">
+                                            <svg class="bi textPurple" width="25" height="25" fill="currentColor">
+                                                <use xlink:href="library/bicons/bootstrap-icons.svg#plus-circle" />
+                                            </svg>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card text-center shadow-lg">
-                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 3">
-                                <div class="card-body">
-                                    <h5 class="card-title">Anillos de plata</h5>
-                                    <p class="card-text textJustificado">
-                                    Embellece tus manos con nuestros anillos de plata 925, piezas únicas y artesanales que destacan por su diseño y calidad. 
-                                    Desde estilos clásicos hasta modernos, cada anillo refleja elegancia y personalidad. ¡El complemento ideal para cualquier 
-                                    ocasión!
-                                    </p>
-                                    <a href="#" class="btn btn-primary">
-                                        Más información <i class="fas fa-plus"></i>
-                                    </a>
+                        <div class="col-12 col-md-4 mb-4">
+                            <!-- Card 3 -->
+                            <div class="card category-card">
+                                <img src="https://via.placeholder.com/300x300?text=Aretes"
+                                    class="card-img-top category-image" alt="Aretes">
+                                <div class="card-body text-center">
+                                    <div class="row mt-1 mb-1">
+                                        <div class="col">
+                                            <p class="category-title">Aretes</p>
+                                        </div>
+                                        <div class="col text-end">
+                                            <svg class="bi textPurple" width="25" height="25" fill="currentColor">
+                                                <use xlink:href="library/bicons/bootstrap-icons.svg#plus-circle" />
+                                            </svg>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Slide 2 -->
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card text-center shadow-lg">
-                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Dijes de plata</h5>
-                                    <p class="card-text textJustificado">
-                                    Añade un toque especial a tu estilo con nuestros dijes de plata 925, creados artesanalmente con diseños únicos y detalles encantadores. 
-                                    Perfectos para personalizar tus cadenas y pulseras con elegancia y autenticidad. 
-                                    ¡Encuentra el dije que te inspire!
-                                    </p>
-                                    <a href="#" class="btn btn-primary">
-                                        Más información <i class="fas fa-plus"></i>
-                                    </a>
+                    <div class="row g-3">
+                        <div class="col-12 col-md-4 mb-4">
+                            <!-- Card 4 -->
+                            <div class="card category-card">
+                                <img src="https://via.placeholder.com/300x300?text=Cadenas"
+                                    class="card-img-top category-image" alt="Cadenas">
+                                <div class="card-body text-center">
+                                    <div class="row mt-1 mb-1">
+                                        <div class="col">
+                                            <p class="category-title">Cadenas</p>
+                                        </div>
+                                        <div class="col text-end">
+                                            <svg class="bi textPurple" width="25" height="25" fill="currentColor">
+                                                <use xlink:href="library/bicons/bootstrap-icons.svg#plus-circle" />
+                                            </svg>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card text-center shadow-lg">
-                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 5">
-                                <div class="card-body">
-                                    <h5 class="card-title">Esclavas de plata</h5>
-                                    <p class="card-text textJustificado">
-                                    Descubre nuestras exclusivas esclavas de plata 925, elaboradas con diseños elegantes y acabados impecables. Perfectas para grabar un mensaje especial y lucir 
-                                    un accesorio único que combina estilo y significado. 
-                                    ¡El detalle ideal para ti o un ser querido!
-                                    </p>
-                                    <a href="#" class="btn btn-primary">
-                                        Más información <i class="fas fa-plus"></i>
-                                    </a>
+                        <div class="col-12 col-md-4 mb-4">
+                            <!-- Card 5 -->
+                            <div class="card category-card">
+                                <img src="https://via.placeholder.com/300x300?text=Regalos"
+                                    class="card-img-top category-image" alt="Regalos">
+                                <div class="card-body text-center">
+                                    <div class="row mt-1 mb-1">
+                                        <div class="col">
+                                            <p class="category-title">Regalos</p>
+                                        </div>
+                                        <div class="col text-end">
+                                            <svg class="bi textPurple" width="25" height="25" fill="currentColor">
+                                                <use xlink:href="library/bicons/bootstrap-icons.svg#plus-circle" />
+                                            </svg>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card text-center shadow-lg">
-                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 6">
-                                <div class="card-body">
-                                    <h5 class="card-title">Mucho Mas...</h5>
-                                    <p class="card-text textJustificado">
-                                    Explora nuestra colección de productos de plata 925, piezas únicas y artesanales que combinan elegancia, calidad y tradición mexicana. Encuentra anillos, cadenas, pulseras, 
-                                    dijes y más, diseñados para resaltar tu estilo en cada ocasión. 
-                                    ¡La joya perfecta te espera!
-                                    </p>
-                                    <a href="#" class="btn btn-primary">
-                                        Más información <i class="fas fa-plus"></i>
-                                    </a>
+                        <div class="col-12 col-md-4 mb-4">
+                            <!-- Card 5 -->
+                            <div class="card category-card">
+                                <img src="https://via.placeholder.com/300x300?text=Regalos"
+                                    class="card-img-top category-image" alt="Regalos">
+                                <div class="card-body text-center">
+                                    <div class="row mt-1 mb-1">
+                                        <div class="col">
+                                            <p class="category-title">Dijes</p>
+                                        </div>
+                                        <div class="col text-end">
+                                            <svg class="bi textPurple" width="25" height="25" fill="currentColor">
+                                                <use xlink:href="library/bicons/bootstrap-icons.svg#plus-circle" />
+                                            </svg>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Controles del slider -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#sliderCarousel" data-bs-slide="prev">
+            <!-- Controles del carrusel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#categoryCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon BtnSlider" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#sliderCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#categoryCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon BtnSlider" aria-hidden="true"></span>
                 <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
     </div>
     <!-- Termina carrusel de productos -->
+    <!-- boton de WhatsApp -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <svg class="bi text-white" width="25" height="25" fill="currentColor">
+            <use xlink:href="library/bicons/bootstrap-icons.svg#whatsapp" />
+        </svg>
+    </a>
+    <!-- termina boton de Whatsapp -->
+    <div class="container mt-5 mb-3 justify-content-center">
+        <div class="card shadow-lg">
+            <div class="row mt-2 mb-2">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="img/paqueteria_miprincesa.jpeg" alt="paqueteria mi princesa" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                    <span class="subtitulos1">Servicio de Entregas</span>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <p class="text-muted textJustificado"><span class="textPurple">En Joyería Mi Princesa</span> nos preocupamos por tu comodidad, por eso ofrecemos un servicio de entrega rápido y seguro. 
+                            Realizamos entregas a domicilio en Naucalpan y zonas cercanas, asegurándonos de que tus piezas lleguen en perfecto estado 
+                            y listas para brillar.</p>
+                            <p class="text-muted textJustificado">Disfruta de nuestra atención personalizada y la garantía de recibir tus joyas artesanales directamente en tu hogar. 
+                            Para más información, contáctanos a través de Messenger o WhatsApp. ¡Estamos aquí para ti!</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- inicia preguntas frecuentes  -->
+    <div class="container mb-3 mt-3">
+        <div class="row mt-2 text-center">
+            <h3 class="TituloMiPrincesa">Preguntas frecuentes</h3>
+        </div>
+        <div class="row mt-3 mb-3">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            ¿Qué tipos de productos ofrecemos?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span class="textJustificado">Ofrecemos joyería artesanal en plata 925 y oro, con diseños únicos realizados por artesanos mexicanos. 
+                            También contamos con conjuntos exclusivos y piezas importadas.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Dónde estámos ubicados?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <span class="textJustificado">Estamos ubicados en Naucalpan de Juárez, Estado de México. Realizamos entregas gratuitas en esta zona y envíos 
+                        a todo México.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Cómo puedo realizar un pedido?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <span class="textJustificado">Puedes realizar tus pedidos a través de nuestra página de Facebook, donde tenemos un catálogo virtual. También aceptamos solicitudes 
+                        por Messenger y WhatsApp.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Hacemos envíos?
+                        </button>
+                    </h2>
+                    <div id="collapseFor" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <span class="textJustificado">Sí, hacemos envíos a toda la República Mexicana. Los costos de envío se calculan dependiendo de tu ubicación y se te informarán antes de confirmar 
+                        el pedido.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Cuánto tiempo tarda en llegar mi pedido?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <span class="textJustificado">El tiempo de entrega varía según tu ubicación. Generalmente, los envíos locales se entregan en 1-3 días hábiles, mientras que los envíos nacionales tardan 
+                        entre 3-7 días hábiles.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Aceptamos devoluciones o cambios?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <span class="textJustificado">Por tratarse de piezas artesanales y exclusivas, las devoluciones solo se aceptan en caso de defectos de fabricación. Por favor, contáctanos dentro de las primeras 48 horas
+                        después de recibir tu pedido para revisar tu caso.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Puedo personalizar una pieza?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <span class="textJustificado">¡Claro! Ofrecemos opciones de personalización en algunos de nuestros diseños. Contáctanos para más detalles sobre los tiempos de entrega y costos adicionales.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOcho" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Qué métodos de pago aceptamos?
+                        </button>
+                    </h2>
+                    <div id="collapseOcho" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <span class="textJustificado">Aceptamos pagos mediante transferencia bancaria, depósito en OXXO y Pago en efectivo. También ofrecemos opciones de pago contra entrega en Naucalpan de Juárez.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseNueve" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Cómo puedo cuidar mi joyería de plata?
+                        </button>
+                    </h2>
+                    <div id="collapseNueve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <span class="textJustificado">Te recomendamos limpiar tus piezas regularmente con un paño suave para mantener su brillo. Evita el contacto con productos químicos como perfumes o cremas.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- termina preguntas frecuentes  -->
     <!-- inicia el footer -->
     <section class="footer"></section>
     <!-- termina footer -->

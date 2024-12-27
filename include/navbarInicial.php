@@ -17,7 +17,7 @@
                 </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="somos">
+                    <a class="nav-link" href="#Nosotros">
                         <svg class="bi" width="20" height="20" fill="currentColor">
                             <use xlink:href="library/bicons/bootstrap-icons.svg#shop"/>
                         </svg>
@@ -25,7 +25,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="servicios">
+                    <a class="nav-link" href="#Servicios">
                         <svg class="bi" width="20" height="20" fill="currentColor">
                             <use xlink:href="library/bicons/bootstrap-icons.svg#cup-hot-fill"/>
                         </svg>
@@ -76,9 +76,11 @@
         <div class="row py-2 mx-auto text-center mt-5">
             <div class="col-sm-12 col-md-3 col-lg-3 mt-2">
                 <span class="text-white">
+                    <a href="tel:+525535776949" class="text-decoration-none text-white">
                         <svg class="bi text-white" width="18" height="18" fill="currentColor">
                             <use xlink:href="library/bicons/bootstrap-icons.svg#telephone-fill"/>
-                        </svg> 55-55-55-55-55</span>
+                        </svg>&nbsp; 55-35-77-69-49</span>
+                    </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 mt-3">
                 <form action="" method="post">
