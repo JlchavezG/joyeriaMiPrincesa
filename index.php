@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/pace2.css">
+    <link rel="icon" type="image/png" href="img/Logo_Navbar_Mi_Princesa.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -438,13 +439,25 @@
                             <p class="text-muted textJustificado">Disfruta de nuestra atención personalizada y la garantía de recibir tus joyas artesanales directamente en tu hogar. 
                             Para más información, contáctanos a través de Messenger o WhatsApp. ¡Estamos aquí para ti!</p> 
                         </div>
+                        <div class="row mt-3 text-end">
+                            <div class="col text-end">
+                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#arrow-right-circle" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row mt-5 mb-4 backgroundSecundary">
+        <div class="container mt-3 mb-3">
+            texto
+        </div>
     </div> 
     <!-- inicia preguntas frecuentes  -->
-    <div class="container mb-3 mt-3">
+    <div class="container mb-3 mt-5">
         <div class="row mt-2 text-center">
             <h3 class="TituloMiPrincesa">Preguntas frecuentes</h3>
         </div>

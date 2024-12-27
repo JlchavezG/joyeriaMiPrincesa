@@ -38,6 +38,13 @@
     background-color: #fff;
     color: rgb(172,108,172);
 }
+.backgroundSecundary{
+    background-color: rgb(148,61,140);;
+    color: #fff;
+    padding: 10px;
+    border-top: 3px solid rgb(210,172,23);
+    border-bottom: 3px solid rgb(210,172,23);
+}
 
 /* textos  */
 .textPurple{
