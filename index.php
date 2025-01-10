@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/pace2.css">
     <link rel="icon" type="image/png" href="img/Logo_Navbar_Mi_Princesa.png">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Slider_Web_Mi_Princesa_002.png" class="d-block w-100" alt="...">
+                    <img src="img/Slider_Web_Mi_Princesa_002.png" class="d-block w-100" alt="Saca la princesa que llevas dendro. JoyeriaMiPrincesa">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="subtitulos">Second slide label</h5>
                         <p class="textPurple">Some representative placeholder content for the second slide.</p>
@@ -52,14 +52,14 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Slider_Web_Mi_Princesa_004.png" class="d-block w-100" alt="...">
+                    <img src="img/Slider_Web_Mi_Princesa_004.png" class="d-block w-100" alt="Todas las piezas de joyeriamiprincesa son parte de tu vida.">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="subtitulos">Second slide label</h5>
                         <p class="textPurple">Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Slider_Web_Mi_Princesa_005.png" class="d-block w-100" alt="...">
+                    <img src="img/Slider_Web_Mi_Princesa_005.png" class="d-block w-100" alt="Un regalo que dura para toda la vida JoyeriaMiPrincesa.">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="subtitulos">Third slide label</h5>
                         <p class="textPurple">Some representative placeholder content for the third slide.</p>
@@ -80,8 +80,8 @@
     </div>
     <div class="container mt-5 justify-content-center">
         <div class="row mt-2 mb-2">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="card shadow-lg bg-white mt-2 mb-2 rounded-5">
+            <div class="col-sm-12 col-md-12 col-lg-6" data-aos="fade-right">
+                <div class="card shadow-lg bg-white mt-2 mb-2 rounded-4">
                     <div class="row text-center mt-2">
                         <img src="img/logo_miprincesa.png" alt="Logotipo joyeria mi princesa" class="img-fluid">
                     </div>
@@ -110,8 +110,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="card shadow-lg bg-white mt-2 mb-2 rounded-5">
+            <div class="col-sm-12 col-md-12 col-lg-6" data-aos="fade-left">
+                <div class="card shadow-lg bg-white mt-2 mb-2 rounded-4">
                     <div class="row mt-5 py-2">
                         <h3 class="TituloMiPrincesa text-center">Nuestras Politicas</h3>
                     </div>
@@ -185,8 +185,8 @@
             <h2 class="text-center TituloMiPrincesa">Nuestros servicios</h2>
         </div>
         <div class="row mt-3 mb-5 justify-content-center">
-            <div class="col-sm-12 col-nd-12 col-lg-12">
-                <div class="card shadow-lg bg-white mt-2 mb-2 rounded-5">
+            <div class="col-sm-12 col-nd-12 col-lg-12" data-aos="fade-up">
+                <div class="card shadow-lg bg-white mt-2 mb-2 rounded-3">
                     <div class="row mt-1"></div>
                     <div class="row mt-1 text-center">
                         <div class="col-sm-4 col-md-4 col-lg-2 py-4">
@@ -280,7 +280,7 @@
     <div class="container my-5 mb-4 mt-4">
         <h2 class="text-center mb-4 TituloMiPrincesa">Descubre nuestras Categorías</h2>
         <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner" data-aos="zoom-in">
                 <div class="carousel-item active">
                     <div class="row g-3">
                         <div class="col-12 col-md-4 mb-4">
@@ -417,14 +417,14 @@
     </div>
     <!-- Termina carrusel de productos -->
     <!-- boton de WhatsApp -->
-    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+    <a href="https://wa.me/+525535776949" class="whatsapp-float" target="_blank">
         <svg class="bi text-white" width="25" height="25" fill="currentColor">
             <use xlink:href="library/bicons/bootstrap-icons.svg#whatsapp" />
         </svg>
     </a>
     <!-- termina boton de Whatsapp -->
-    <div class="container mt-5 mb-3 justify-content-center">
-        <div class="card shadow-lg">
+    <div class="container mt-5 mb-3 justify-content-center" data-aos="zoom-out-up">
+        <div class="card shadow-lg rounded-3">
             <div class="row mt-2 mb-2">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <img src="img/paqueteria_miprincesa.jpeg" alt="paqueteria mi princesa" class="img-fluid">
@@ -451,11 +451,57 @@
             </div>
         </div>
     </div>
-    <div class="row mt-5 mb-4 backgroundSecundary">
-        <div class="container mt-3 mb-3">
-            texto
+    <div class="container mt-5 mb-3 justify-content-center" data-aos="zoom-out-up">
+        <div class="card shadow-lg rounded-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="img/modeloprincesa.png" alt="brilla con tu propio estilo" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                    <div class="row mt-3 mb-1">
+                        <span class="subtitulos1">Brilla con tu propio estilo</span>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <p class="text-muted textJustificado"><span class="textPurple">En Joyería Mi Princesa</span> Descubre la magia de nuestras joyas 100% artesanales, 
+                            creadas con dedicación por manos mexicanas. Cada pieza es única, con diseños exclusivos que reflejan tradición y elegancia. Lleva contigo un detalle especial, 
+                            hecho con pasión y autenticidad. ¡La belleza de lo hecho a mano, ahora al alcance de tus manos!
+                        </div>
+                        <div class="row mt-2 mb-1">
+                            <div class="col">
+                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#gem" />
+                                </svg>
+                            </div>
+                            <div class="col">
+                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#gem" />
+                                </svg>
+                            </div>
+                            <div class="col">
+                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#gem" />
+                                </svg>
+                            </div>
+                            <div class="col">
+                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#gem" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row mt-3 text-end">
+                            <div class="col text-end">
+                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#arrow-right-circle" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div> 
+    </div>
+    
     <!-- inicia preguntas frecuentes  -->
     <div class="container mb-3 mt-5">
         <div class="row mt-2 text-center">
@@ -597,7 +643,10 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/pace.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

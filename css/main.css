@@ -24,6 +24,13 @@
     font-size: 35px;
     color: rgb(210,172,23);
 }
+.subtitulos2{
+    font-family: "Style Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #fff;
+}
  /* backgroun del navbar */
 .backgroundNavbar{
     background-color:rgb(148,61,140);
@@ -39,7 +46,7 @@
     color: rgb(172,108,172);
 }
 .backgroundSecundary{
-    background-color: rgb(148,61,140);;
+    background-color: rgb(208,153,196);
     color: #fff;
     padding: 10px;
     border-top: 3px solid rgb(210,172,23);

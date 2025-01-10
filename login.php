@@ -1,4 +1,7 @@
 
+<?php 
+    include "app/conection.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +11,15 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/pace2.css">
+    <link rel="icon" type="image/png" href="img/Logo_Navbar_Mi_Princesa.png">
+    <meta name="description" content="Joyería Mi Princesa - Venta de plata 925, piezas 100% artesanales y plata italiana. Apoyamos a los artesanos mexicanos y ofrecemos envíos en Naucalpan y toda la República Mexicana.">
+    <meta name="keywords" content="joyería, plata 925, plata mexicana, plata italiana, piezas artesanales, Naucalpan, envíos a domicilio, joyería artesanal">
+    <meta name="author" content="Joyería Mi Princesa">
+    <meta property="og:title" content="Joyería Mi Princesa | Plata 925 Artesanal">
+    <meta property="og:description" content="Descubre piezas únicas en plata 925 y artesanía mexicana. Entregas gratuitas en Naucalpan y envío a domicilio con cotización personalizada.">
+    <meta property="og:url" content="https://www.joyeriamiprincesa.com">
+    <meta property="og:image" content="img/Slider_Web_Mi_Princesa_001.png">
+    <meta property="og:type" content="website">
     <script src="js/jquery.js"></script>
     <title>Inicio JoyeriaMiPrincesa</title>
 </head>
@@ -25,7 +37,7 @@
         </div>
         <div class="row justify-content-center mt-3">
             <div class="col-sm-12 col-md-10 col-lg-10 text-center">
-                <img src="img/logo_miprincesa.png" alt="login" style="width:550px;">
+                <img src="img/logo_miprincesa.png" alt="logo mi princesa" style="width:550px;">
             </div>
         </div>
         <div class="row mt-2 justify-content-center">
@@ -79,8 +91,8 @@
                                 <div class="d-grid gap-2 mx-auto">
                                     <a href="RecPass" type="button" class="btn btnPrincipal">
                                         <svg class="bi" width="18" height="18" fill="currentColor">
-                                            <use xlink:href="library/bicons/bootstrap-icons.svg#key-fill" />
-                                        </svg>&nbsp;&nbsp; Recupera tu cuenta</a>
+                                            <use xlink:href="library/bicons/bootstrap-icons.svg#headset" />
+                                        </svg>&nbsp;&nbsp; Soporte Técnico</a>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +102,7 @@
         </div>
     </div>
     <!-- modulo de ayuda login  -->
-    <?php include 'modulo/AyudaLogin.php'; ?>
+    
     <!-- Footer  - Bootstrap menu -->
     
     <script src="js/bootstrap.min.js"></script>
@@ -114,7 +126,7 @@
                     }, false)
                 })
         })()
-    </scrip>
+    </script>
     <script>
     function verPass(ck) {
         if (ck.checked)
