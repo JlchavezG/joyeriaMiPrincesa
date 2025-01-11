@@ -133,7 +133,7 @@
     border: 2px solid rgb(210,172,23);
 }
 .btnSliderBar{
-    background-color: rgb(148,61,140,0.5);
+    background-color: rgb(210,172,23);
     border-radius: 25px;
 }
 .footer{
@@ -189,10 +189,22 @@
 }
 
 .golden-hover:hover {
-    color: rgb(210,172,23);
+    color: rgb(210,172,23,0.7);
     text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
     transition: 1s;
     transform: scale(1.2); /* Aumenta el tamaño un 20% */
+}
+.purple-hover{
+    font-size: 50px;
+    color: rgb(210,172,23);
+    transition: color 0.4s, text-shadow 0.4s;
+    cursor: pointer;
+}
+.purple-hover:hover{
+    color:  rgb(148,61,140);
+    text-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple;
+    transition: 1s;
+    transform: scale(1.5); /* Aumenta el tamaño un 20% */
 }
 
 .whatsapp-float {

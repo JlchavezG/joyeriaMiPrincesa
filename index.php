@@ -181,7 +181,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-4 mb-3" id="Servicios">
+        <div class="row mt-4 mb-3" id="Servicios" data-aos="fade-up">
             <h2 class="text-center TituloMiPrincesa">Nuestros servicios</h2>
         </div>
         <div class="row mt-3 mb-5 justify-content-center">
@@ -245,10 +245,10 @@
     <!-- Boton Compartir en redes sociales  -->
     <div class="container mt-2">
         <div class="row mt-3 mb-3 py5">
-            <div class="col sm-6 col-md-6 col-lg-6 mt-2 text-end">
+            <div class="col sm-6 col-md-6 col-lg-6 mt-2 text-end" data-aos="fade-right">
                 <span class="subtitulos1">Comparte con tus amigos</span>
             </div>
-            <div class="col sm-6 col-md-6 col-lg-6 mt-3 text-end">
+            <div class="col sm-6 col-md-6 col-lg-6 mt-3 text-end" data-aos="fade-left">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.joyeriamiprincesa.com"
                     target="_blanck" class="text-decoration-none">
                     <svg class="bi textPurple golden-hover" width="25" height="25" fill="currentColor">
@@ -278,7 +278,7 @@
     </div>
     <!-- carrusel de productos  -->
     <div class="container my-5 mb-4 mt-4">
-        <h2 class="text-center mb-4 TituloMiPrincesa">Descubre nuestras Categorías</h2>
+        <h2 class="text-center mb-4 TituloMiPrincesa" data-aos="fade-up">Descubre nuestras Categorías</h2>
         <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner" data-aos="zoom-in">
                 <div class="carousel-item active">
@@ -465,31 +465,31 @@
                         <div class="row mt-2">
                             <p class="text-muted textJustificado"><span class="textPurple">En Joyería Mi Princesa</span> Descubre la magia de nuestras joyas 100% artesanales, 
                             creadas con dedicación por manos mexicanas. Cada pieza es única, con diseños exclusivos que reflejan tradición y elegancia. Lleva contigo un detalle especial, 
-                            hecho con pasión y autenticidad. ¡La belleza de lo hecho a mano, ahora al alcance de tus manos!
+                            hecho con pasión y autenticidad. <span class="textPurple">¡La belleza de lo hecho a mano, ahora al alcance de tus manos!</span>
                         </div>
-                        <div class="row mt-2 mb-1">
+                        <div class="row mt-3 mb-1">
                             <div class="col">
-                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                <svg class="bi textPurple purple-hover" width="35" height="35" fill="currentColor">
                                     <use xlink:href="library/bicons/bootstrap-icons.svg#gem" />
                                 </svg>
                             </div>
                             <div class="col">
-                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
-                                    <use xlink:href="library/bicons/bootstrap-icons.svg#gem" />
+                                <svg class="bi textPurple purple-hover" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#hammer" />
                                 </svg>
                             </div>
                             <div class="col">
-                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
-                                    <use xlink:href="library/bicons/bootstrap-icons.svg#gem" />
+                                <svg class="bi textPurple purple-hover" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#hearts" />
                                 </svg>
                             </div>
                             <div class="col">
-                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
-                                    <use xlink:href="library/bicons/bootstrap-icons.svg#gem" />
+                                <svg class="bi textPurple purple-hover" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#palette2" />
                                 </svg>
                             </div>
                         </div>
-                        <div class="row mt-3 text-end">
+                        <div class="row mt-5 text-end">
                             <div class="col text-end">
                                 <svg class="bi textPurple" width="35" height="35" fill="currentColor">
                                     <use xlink:href="library/bicons/bootstrap-icons.svg#arrow-right-circle" />
@@ -501,7 +501,24 @@
             </div>
         </div>
     </div>
-    
+    <!-- inicia registro a newslatter de joyeria mi princesa -->
+    <div class="row mt-5 mb-5 justify-content-center">
+        <div class="container">
+            <div class="row mt-2 text-center">
+                <h3 class="TituloMiPrincesa">Suscribete a nuestro Newsletter</h3>
+            </div>
+            <div class="row mt-2 mb-2 justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <form action="" method="post">
+                        <input type="email" placeholder="Registra tu Email" class="form-control">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                        <input type="submit" value="Registrate" class="btn btn-sm">
+                </div>
+                    </form>
+            </div>
+        </div>
+    </div>
     <!-- inicia preguntas frecuentes  -->
     <div class="container mb-3 mt-5">
         <div class="row mt-2 text-center">
