@@ -502,20 +502,50 @@
         </div>
     </div>
     <!-- inicia registro a newslatter de joyeria mi princesa -->
-    <div class="row mt-5 mb-5 justify-content-center">
-        <div class="container">
-            <div class="row mt-2 text-center">
-                <h3 class="TituloMiPrincesa">Suscribete a nuestro Newsletter</h3>
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center mt-3 mb-3">
+            <h3 class="subtitulos1 text-center">Newslatter</h3>
+            <p class="text-muted textJustificado">Bienvenido al mundo de la elegancia artesanal! Nuestro newsletter es el espacio perfecto para descubrir las últimas colecciones de piezas 
+            únicas en plata 925 y oro, diseñadas con amor por artesanos mexicanos. Aquí encontrarás ofertas exclusivas, consejos sobre el cuidado de tus 
+            joyas y detalles de los eventos en los que participamos, como el pasado Bazar Navideño en Naucalpan.</p>
+            <p class="text-muted text-center">Suscríbete y mantente conectado con la belleza y calidad que solo Joyería Mi Princesa puede ofrecer. 💎✨</p>
+
+            <div class="col-sm-1o col-md-10 col-lg-5 justify-content-center">
+                <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
+                    <input type="email" placeholder="tu correo electronico" class="form-control" required>
+                    <input type="submit" class="btn btn-sm btnNews" value="Registrate">
+                </form>
             </div>
-            <div class="row mt-2 mb-2 justify-content-center">
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <form action="" method="post">
-                        <input type="email" placeholder="Registra tu Email" class="form-control">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-3 mb-3 justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <h5 class="card-title">Regalos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                        <input type="submit" value="Registrate" class="btn btn-sm">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <h5 class="card-title">Regalos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-                    </form>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <h5 class="card-title">Regalos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
