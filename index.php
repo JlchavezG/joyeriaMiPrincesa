@@ -33,21 +33,21 @@
                 <div class="carousel-item active">
                     <img src="img/Slider_Web_Mi_Princesa_001.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="subtitulos">First slide label</h5>
-                        <p class="textPurple">Some representative placeholder content for the first slide.</p>
+                        <h5 class="subtitulos">Anillos y pulseras</h5>
+                        <p class="textPurple">Encuentra tu próxima joya especial con nosotros..</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/Slider_Web_Mi_Princesa_002.png" class="d-block w-100" alt="Saca la princesa que llevas dendro. JoyeriaMiPrincesa">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="subtitulos">Second slide label</h5>
-                        <p class="textPurple">Some representative placeholder content for the second slide.</p>
+                        <h5 class="subtitulos">¿Buscas un regalo inolvidable?</h5>
+                        <p class="textPurple">Descubre nuestros dijes y aretes hechos con amor y dedicación artesanal.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/Slider_Web_Mi_Princesa_003.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="subtitulos">Second slide label</h5>
+                        <h5 class="subtitulos">Haz de cada detalle algo único</h5>
                         <p class="textPurple">Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
@@ -181,6 +181,9 @@
                 </div>
             </div>
         </div>
+        <!-- botos sroll subir  -->
+        <button id="btnSubir" class="pulso">↑</button>
+        <!-- termina botos sroll subir  -->
         <div class="row mt-4 mb-3" id="Servicios" data-aos="fade-up">
             <h2 class="text-center TituloMiPrincesa">Nuestros servicios</h2>
         </div>
@@ -286,7 +289,7 @@
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 1 -->
                             <div class="card category-card">
-                                <img src="https://via.placeholder.com/300x300?text=Anillos"
+                                <img src="img/anillos_plata.jpg"
                                     class="card-img-top category-image" alt="Anillos">
                                 <div class="card-body text-center">
                                     <div class="row mt-1 mb-1">
@@ -305,7 +308,7 @@
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 2 -->
                             <div class="card category-card">
-                                <img src="https://via.placeholder.com/300x300?text=Pulseras"
+                                <img src="img/pulsera.jpg"
                                     class="card-img-top category-image" alt="Pulseras">
                                 <div class="card-body text-center">
                                     <div class="row mt-1 mb-1">
@@ -324,7 +327,7 @@
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 3 -->
                             <div class="card category-card">
-                                <img src="https://via.placeholder.com/300x300?text=Aretes"
+                                <img src="img/aretes.jpg"
                                     class="card-img-top category-image" alt="Aretes">
                                 <div class="card-body text-center">
                                     <div class="row mt-1 mb-1">
@@ -347,7 +350,7 @@
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 4 -->
                             <div class="card category-card">
-                                <img src="https://via.placeholder.com/300x300?text=Cadenas"
+                                <img src="img/cadena.jpg"
                                     class="card-img-top category-image" alt="Cadenas">
                                 <div class="card-body text-center">
                                     <div class="row mt-1 mb-1">
@@ -366,7 +369,7 @@
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 5 -->
                             <div class="card category-card">
-                                <img src="https://via.placeholder.com/300x300?text=Regalos"
+                                <img src="img/regalos_princesa.jpg"
                                     class="card-img-top category-image" alt="Regalos">
                                 <div class="card-body text-center">
                                     <div class="row mt-1 mb-1">
@@ -385,7 +388,7 @@
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 5 -->
                             <div class="card category-card">
-                                <img src="https://via.placeholder.com/300x300?text=Regalos"
+                                <img src="img/dijes.jpg"
                                     class="card-img-top category-image" alt="Regalos">
                                 <div class="card-body text-center">
                                     <div class="row mt-1 mb-1">
@@ -502,7 +505,7 @@
         </div>
     </div>
     <!-- inicia registro a newslatter de joyeria mi princesa -->
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5 mb-5" data-aos="fade-up">
         <div class="row justify-content-center mt-3 mb-3">
             <h3 class="subtitulos1 text-center">Newslatter</h3>
             <p class="text-muted textJustificado">Bienvenido al mundo de la elegancia artesanal! Nuestro newsletter es el espacio perfecto para descubrir las últimas colecciones de piezas 
@@ -520,30 +523,30 @@
     </div>
     <div class="container">
         <div class="row mt-3 mb-3 justify-content-center">
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
                 <div class="card shadow-lg">
                     <div class="card-body">
-                        <h5 class="card-title">Regalos</h5>
+                        <img src="img/regalos.jpg" class="card-img-top"  alt="regalos mi princesa">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-sm btnNews">Más información</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
                 <div class="card shadow-lg">
                     <div class="card-body">
-                        <h5 class="card-title">Regalos</h5>
+                        <img src="img/mensajeria.jpg" class="card-img-top"  alt="regalos mi princesa">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-sm btnNews" >Más información</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
                 <div class="card shadow-lg">
                     <div class="card-body">
-                        <h5 class="card-title">Regalos</h5>
+                        <img src="img/artesanal.jpg" class="card-img-top"  alt="regalos mi princesa">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-sm btnNews">Más información</a>
                     </div>
                 </div>
             </div>
@@ -684,6 +687,8 @@
         </div>
     </div>
     <!-- termina preguntas frecuentes  -->
+    <!-- inician ventanas modales -->
+    <!-- terminan ventanas modales -->
     <!-- inicia el footer -->
     <section class="footer"></section>
     <!-- termina footer -->
