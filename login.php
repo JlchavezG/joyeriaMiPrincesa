@@ -1,6 +1,7 @@
 
 <?php 
     include "app/conection.php";
+    include "app/login.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +52,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-5">
                     <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post" class="needs-validation" novalidate>
                         <div class="row mt-2">
-                            <input type="text" name="UserName" id="UserName" class="form-control" placeholder="Usuario"
+                            <input type="email" name="EmailUser" id="EmailUser" class="form-control" placeholder="Email"
                                 required>
                             <div class="invalid-feedback">
                                 Por favor ingresa tu nombre de usuario.

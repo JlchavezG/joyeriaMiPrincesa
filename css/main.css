@@ -73,6 +73,18 @@
     text-align: justify;
 
 }
+.textfooter{
+    margin-top: 25px;
+    text-align: center;
+    color: #fff;
+
+}
+.textfooterJustificado{
+    margin-top: 25px;
+    text-align:justify;
+    color: #fff;
+
+}
  /* custumizar los link de la pagina */
 .custom-link {
     color: rgb(172,108,172); /* Azul */

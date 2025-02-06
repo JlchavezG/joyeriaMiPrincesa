@@ -66,6 +66,19 @@
                         &nbsp;Inicio de Sesión&nbsp;
                     </a>
                 </li>
+                <li class="nav-item mt-2">&nbsp;&nbsp;
+                    <svg class="bi" width="20" height="20" fill="currentColor">
+                        <use xlink:href="library/bicons/bootstrap-icons.svg#brightness-low-fill"/>
+                    </svg> / <svg class="bi" width="13" height="13" fill="currentColor">
+                        <use xlink:href="library/bicons/bootstrap-icons.svg#moon-stars-fill"/>
+                    </svg>&nbsp;&nbsp;
+                </li>
+                <li class="nav-item mt-2">
+                <div class="form-check form-switch nav-item">
+                        <input class="form-check-input" type="checkbox" role="switch" id="darkSwitch">
+                        <label class="form-check-label" for="darkSwitch">Modo Oscuro</label>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>

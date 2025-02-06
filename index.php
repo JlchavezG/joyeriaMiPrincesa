@@ -1,3 +1,8 @@
+<?php 
+    include "app/conection.php";
+    include "app/querys.php";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/pace2.css">
+    <link rel="stylesheet" href="css/dark.css">
     <link rel="icon" type="image/png" href="img/Logo_Navbar_Mi_Princesa.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -37,7 +43,7 @@
                         <p class="textPurple">Encuentra tu próxima joya especial con nosotros..</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item bg-white">
                     <img src="img/Slider_Web_Mi_Princesa_002.png" class="d-block w-100" alt="Saca la princesa que llevas dendro. JoyeriaMiPrincesa">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="subtitulos">¿Buscas un regalo inolvidable?</h5>
@@ -90,7 +96,7 @@
                     </div>
                     <div class="container">
                         <div class="row justify-content-center">
-                            <span class="text-muted textJustificado">Somos una tienda online dedicada a ofrecer piezas
+                            <span class="textJustificado">Somos una tienda online dedicada a ofrecer piezas
                                 únicas y exclusivas de joyería diseñadas para
                                 resaltar la belleza y elegancia de cada mujer. Con una amplia variedad de collares,
                                 pulseras, anillos
@@ -117,7 +123,7 @@
                     </div>
                     <div class="container">
                         <div class="row justify-content-center py-1">
-                            <span class="textJustificado text-muted">En <span class="textPurple">Joyería Mi
+                            <span class="textJustificado">En <span class="textPurple">Joyería Mi
                                     Princesa,</span> trabajamos con pasión para ofrecerte piezas únicas y de la más alta
                                 calidad, hechas con manos
                                 artesanas mexicanas. Queremos que tu experiencia sea tan especial como nuestras joyas,
@@ -128,10 +134,10 @@
                                 importante es que te lleves algo más que una joya:
                                 un recuerdo que brille para siempre.</span>
                             <ul class="list-group list-group-flush mt-3">
-                                <li class="list-group-item">
+                                <li class="list-group-item bg-white">
                                     <div class="row">
                                         <div class="col">
-                                            <span class="fs-6 text-muted">Politicas de venta</span>
+                                            <span class="fs-6">Politicas de venta</span>
                                         </div>
                                         <div class="col text-end">
                                             <svg class="bi textPurple" width="20" height="20" fill="currentColor">
@@ -141,10 +147,10 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="list-group-item">
+                                <li class="list-group-item bg-white">
                                     <div class="row">
                                         <div class="col">
-                                            <span class="fs-6 text-muted">Politica de entrega</span>
+                                            <span class="fs-6">Politica de entrega</span>
                                         </div>
                                         <div class="col text-end">
                                             <svg class="bi textPurple" width="20" height="20" fill="currentColor">
@@ -154,10 +160,10 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="list-group-item">
+                                <li class="list-group-item bg-white">
                                     <div class="row">
                                         <div class="col">
-                                            <span class="fs-6 text-muted">Politica de cambios de productos</span>
+                                            <span class="fs-6">Politica de cambios de productos</span>
                                         </div>
                                         <div class="col text-end">
                                             <svg class="bi textPurple" width="20" height="20" fill="currentColor">
@@ -181,9 +187,6 @@
                 </div>
             </div>
         </div>
-        <!-- botos sroll subir  -->
-        <button id="btnSubir" class="pulso">↑</button>
-        <!-- termina botos sroll subir  -->
         <div class="row mt-4 mb-3" id="Servicios" data-aos="fade-up">
             <h2 class="text-center TituloMiPrincesa">Nuestros servicios</h2>
         </div>
@@ -288,7 +291,7 @@
                     <div class="row g-3">
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 1 -->
-                            <div class="card category-card">
+                            <div class="card category-card bg-white">
                                 <img src="img/anillos_plata.jpg"
                                     class="card-img-top category-image" alt="Anillos">
                                 <div class="card-body text-center">
@@ -307,7 +310,7 @@
                         </div>
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 2 -->
-                            <div class="card category-card">
+                            <div class="card category-card bg-white">
                                 <img src="img/pulsera.jpg"
                                     class="card-img-top category-image" alt="Pulseras">
                                 <div class="card-body text-center">
@@ -326,7 +329,7 @@
                         </div>
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 3 -->
-                            <div class="card category-card">
+                            <div class="card category-card bg-white">
                                 <img src="img/aretes.jpg"
                                     class="card-img-top category-image" alt="Aretes">
                                 <div class="card-body text-center">
@@ -349,7 +352,7 @@
                     <div class="row g-3">
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 4 -->
-                            <div class="card category-card">
+                            <div class="card category-card bg-white">
                                 <img src="img/cadena.jpg"
                                     class="card-img-top category-image" alt="Cadenas">
                                 <div class="card-body text-center">
@@ -368,7 +371,7 @@
                         </div>
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 5 -->
-                            <div class="card category-card">
+                            <div class="card category-card bg-white">
                                 <img src="img/regalos_princesa.jpg"
                                     class="card-img-top category-image" alt="Regalos">
                                 <div class="card-body text-center">
@@ -387,7 +390,7 @@
                         </div>
                         <div class="col-12 col-md-4 mb-4">
                             <!-- Card 5 -->
-                            <div class="card category-card">
+                            <div class="card category-card bg-white">
                                 <img src="img/dijes.jpg"
                                     class="card-img-top category-image" alt="Regalos">
                                 <div class="card-body text-center">
@@ -427,7 +430,7 @@
     </a>
     <!-- termina boton de Whatsapp -->
     <div class="container mt-5 mb-3 justify-content-center" data-aos="zoom-out-up">
-        <div class="card shadow-lg rounded-3">
+        <div class="card shadow-lg rounded-3 bg-white">
             <div class="row mt-2 mb-2">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <img src="img/paqueteria_miprincesa.jpeg" alt="paqueteria mi princesa" class="img-fluid">
@@ -455,7 +458,7 @@
         </div>
     </div>
     <div class="container mt-5 mb-3 justify-content-center" data-aos="zoom-out-up">
-        <div class="card shadow-lg rounded-3">
+        <div class="card shadow-lg rounded-3 bg-white">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <img src="img/modeloprincesa.png" alt="brilla con tu propio estilo" class="img-fluid">
@@ -512,189 +515,106 @@
             únicas en plata 925 y oro, diseñadas con amor por artesanos mexicanos. Aquí encontrarás ofertas exclusivas, consejos sobre el cuidado de tus 
             joyas y detalles de los eventos en los que participamos, como el pasado Bazar Navideño en Naucalpan.</p>
             <p class="text-muted text-center">Suscríbete y mantente conectado con la belleza y calidad que solo Joyería Mi Princesa puede ofrecer. 💎✨</p>
-
             <div class="col-sm-1o col-md-10 col-lg-5 justify-content-center">
                 <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
-                    <input type="email" placeholder="tu correo electronico" class="form-control" required>
+                    <input type="email" placeholder="tu correo electronico" class="form-control bg-white" required>
                     <input type="submit" class="btn btn-sm btnNews" value="Registrate">
                 </form>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row mt-3 mb-3 justify-content-center">
-            <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="img/regalos.jpg" class="card-img-top"  alt="regalos mi princesa">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-sm btnNews">Más información</a>
+    <!-- termina newslatter -->
+    <!-- inicia banner de regalos -->
+    <div class="container mt-5 mb-3 justify-content-center" data-aos="zoom-out-up">
+        <div class="card shadow-lg rounded-3 bg-white">
+            <div class="row mt-2 mb-2">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="img/Regalos001.png" alt="encuentra tu regalo en joyeria mi princesa" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                    <span class="subtitulos1">Detalles que duran para siempre</span>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <p class="text-muted textJustificado"><span class="textPurple">En Joyería Mi Princesa</span> nos preocupamos por tu comodidad, por eso ofrecemos un servicio de entrega rápido y seguro. 
+                            Realizamos entregas a domicilio en Naucalpan y zonas cercanas, asegurándonos de que tus piezas lleguen en perfecto estado 
+                            y listas para brillar.</p>
+                            <p class="text-muted textJustificado">Disfruta de nuestra atención personalizada y la garantía de recibir tus joyas artesanales directamente en tu hogar. 
+                            Para más información, contáctanos a través de Messenger o WhatsApp. ¡Estamos aquí para ti!</p> 
+                        </div>
+                        <div class="row mt-3 text-end">
+                            <div class="col text-end">
+                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#arrow-right-circle" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="img/mensajeria.jpg" class="card-img-top"  alt="regalos mi princesa">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-sm btnNews" >Más información</a>
-                    </div>
+        </div>
+    </div>
+    <!-- termina banner -->
+    <!-- inicia banner de cotiza tu entrega -->
+    <div class="container mt-5 mb-3 justify-content-center" data-aos="zoom-out-up">
+        <div class="card shadow-lg rounded-3 bg-white">
+            <div class="row mt-2 mb-2">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="img/paqueteria_miprincesa.jpeg" alt="paqueteria mi princesa" class="img-fluid">
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="img/artesanal.jpg" class="card-img-top"  alt="regalos mi princesa">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-sm btnNews">Más información</a>
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                    <span class="subtitulos1">Detalles que duran para siempre</span>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <p class="text-muted textJustificado"><span class="textPurple">En Joyería Mi Princesa</span> nos preocupamos por tu comodidad, por eso ofrecemos un servicio de entrega rápido y seguro. 
+                            Realizamos entregas a domicilio en Naucalpan y zonas cercanas, asegurándonos de que tus piezas lleguen en perfecto estado 
+                            y listas para brillar.</p>
+                            <p class="text-muted textJustificado">Disfruta de nuestra atención personalizada y la garantía de recibir tus joyas artesanales directamente en tu hogar. 
+                            Para más información, contáctanos a través de Messenger o WhatsApp. ¡Estamos aquí para ti!</p> 
+                        </div>
+                        <div class="row mt-3 text-end">
+                            <div class="col text-end">
+                                <svg class="bi textPurple" width="35" height="35" fill="currentColor">
+                                    <use xlink:href="library/bicons/bootstrap-icons.svg#arrow-right-circle" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- inicia preguntas frecuentes  -->
-    <div class="container mb-3 mt-5">
-        <div class="row mt-2 text-center">
-            <h3 class="TituloMiPrincesa">Preguntas frecuentes</h3>
-        </div>
-        <div class="row mt-3 mb-3">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            ¿Qué tipos de productos ofrecemos?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <span class="textJustificado">Ofrecemos joyería artesanal en plata 925 y oro, con diseños únicos realizados por artesanos mexicanos. 
-                            También contamos con conjuntos exclusivos y piezas importadas.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            ¿Dónde estámos ubicados?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <span class="textJustificado">Estamos ubicados en Naucalpan de Juárez, Estado de México. Realizamos entregas gratuitas en esta zona y envíos 
-                        a todo México.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Cómo puedo realizar un pedido?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <span class="textJustificado">Puedes realizar tus pedidos a través de nuestra página de Facebook, donde tenemos un catálogo virtual. También aceptamos solicitudes 
-                        por Messenger y WhatsApp.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Hacemos envíos?
-                        </button>
-                    </h2>
-                    <div id="collapseFor" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <span class="textJustificado">Sí, hacemos envíos a toda la República Mexicana. Los costos de envío se calculan dependiendo de tu ubicación y se te informarán antes de confirmar 
-                        el pedido.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Cuánto tiempo tarda en llegar mi pedido?
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <span class="textJustificado">El tiempo de entrega varía según tu ubicación. Generalmente, los envíos locales se entregan en 1-3 días hábiles, mientras que los envíos nacionales tardan 
-                        entre 3-7 días hábiles.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Aceptamos devoluciones o cambios?
-                        </button>
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <span class="textJustificado">Por tratarse de piezas artesanales y exclusivas, las devoluciones solo se aceptan en caso de defectos de fabricación. Por favor, contáctanos dentro de las primeras 48 horas
-                        después de recibir tu pedido para revisar tu caso.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Puedo personalizar una pieza?
-                        </button>
-                    </h2>
-                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <span class="textJustificado">¡Claro! Ofrecemos opciones de personalización en algunos de nuestros diseños. Contáctanos para más detalles sobre los tiempos de entrega y costos adicionales.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOcho" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Qué métodos de pago aceptamos?
-                        </button>
-                    </h2>
-                    <div id="collapseOcho" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <span class="textJustificado">Aceptamos pagos mediante transferencia bancaria, depósito en OXXO y Pago en efectivo. También ofrecemos opciones de pago contra entrega en Naucalpan de Juárez.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseNueve" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Cómo puedo cuidar mi joyería de plata?
-                        </button>
-                    </h2>
-                    <div id="collapseNueve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <span class="textJustificado">Te recomendamos limpiar tus piezas regularmente con un paño suave para mantener su brillo. Evita el contacto con productos químicos como perfumes o cremas.</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- termina preguntas frecuentes  -->
+    <!-- termina banner de entrega -->
+    
     <!-- inician ventanas modales -->
     <!-- terminan ventanas modales -->
     <!-- inicia el footer -->
-    <section class="footer"></section>
+    <section class="footer">
+        <div class="container mt-2 mb-2">
+            <div class="row mt-3 mb-2 justify-content-center">
+                <span class="textfooter">Derechos reservador JoyeriaMiPrincesa@2025</span>
+            </div>
+            <div class="row mt-2 mb-2 textfooterJustificado">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <span>Telefono: 55 35 77 69 49</span>
+                    </div>
+                    <div class="row">
+                        <span>Email: contacto@joyeriamiprincesa.com</span>
+                    </div>
+                    <div class="row">
+                        <span>Ubicación: Naucalpan de juarez Edo de México</span>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">2</div>
+                <div class="col-sm-4 col-md-4 col-lg-4">3</div>
+            </div>
+        </div>
+    </section>
     <!-- termina footer -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/pace.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/dark-mode.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
